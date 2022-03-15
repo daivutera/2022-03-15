@@ -1,0 +1,12 @@
+<%- include('partials/head.ejs') %> 
+  <%- include('partials/nav.ejs') %> 
+
+    <h1>This is about page</h1>
+    <h2>Web tech</h2>
+    <ul>
+        <% techArr.forEach(el => { %> 
+        <li><%= el %></li>
+        <% }) %> 
+    </ul>
+   
+  <%- include('partials/footer.ejs') %> 
